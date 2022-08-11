@@ -101,6 +101,14 @@
 							</li>
 						</ul>
 					</li>
+					<li>
+						<a href="#" >Other Resources</a>
+						<ul>
+							<li>
+								<a href="https://facilities.ufl.edu/campus-planning/conservation-area-land-management-plans/plans/" >UF Conservation Area Maps</a>
+							</li>
+						</ul>
+					</li>
 				</ul>
 			</div>
 		</td>
