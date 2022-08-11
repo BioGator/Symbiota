@@ -9,7 +9,7 @@
 					<img src="<?php echo $CLIENT_ROOT; ?>/images/layout/biogator_logo_v2.2.png" style="margin:0;width:250px" />
 				</div>
 				<div style="margin-left: 40px; color: #fff; font-family: 'Mate', serif; letter-spacing: 1px; text-shadow: 0 0 7px rgba(0,0,0,0.5);">
-					<div style="margin-top:30px; font-size:60px; line-height:48px;">
+					<div style="padding-top:25px; font-size:60px; line-height:48px;">
 						BioGator
 					</div>
 					<div style="margin-top:20px; font-size:35px; font-style: italic">
