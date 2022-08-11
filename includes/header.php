@@ -80,16 +80,13 @@
 						</ul>
 					</li>
 					<li>
-						<a href="<?php echo $CLIENT_ROOT; ?>/projects/index.php" >Inventories</a>
+						<a href="<?php echo $CLIENT_ROOT; ?>/projects/index.php" >Checklists</a>
 						<ul>
 							<li>
-								<a href="<?php echo $CLIENT_ROOT; ?>/projects/index.php?pid=1" >Project 1</a>
+								<a href="<?php echo $CLIENT_ROOT; ?>/checklists/checklist.php?clid=34&pid=0" >UF Main Campus</a>
 							</li>
 							<li>
-								<a href="<?php echo $CLIENT_ROOT; ?>/projects/index.php?pid=2" >Project 2</a>
-							</li>
-							<li>
-								<a href="<?php echo $CLIENT_ROOT; ?>/projects/index.php?pid=3" >Project 3</a>
+								<a href="<?php echo $CLIENT_ROOT; ?>/projects/index.php?pid=2" >Comming Soon</a>
 							</li>
 						</ul>
 					</li>
