@@ -280,7 +280,7 @@ $taxaArray = $clManager->getTaxaList($pageNumber,($printMode?0:500));
 				}
 				if($childArr = $clManager->getChildClidArr()){
 					echo '<div style="float:left;">'.(isset($LANG['INCLUDE_TAXA'])?$LANG['INCLUDE_TAXA']:'Includes taxa from following child checklists').':</div>';
-					echo '<div style="margin-left:10px;float:left">';
+					echo '<div style="margin-left:15px">';
 					foreach($childArr as $childClid => $childName){
 						echo '<div style="clear:both;"><b><a href="checklist.php?pid='.$pid.'&clid='.$childClid.'">'.$childName.'</a></b></div>';
 					}
