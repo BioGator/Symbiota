@@ -85,9 +85,6 @@
 							<li>
 								<a href="<?php echo $CLIENT_ROOT; ?>/checklists/checklist.php?clid=35" >UF Conservation Areas</a>
 							</li>
-							<li>
-								<a href="<?php echo $CLIENT_ROOT; ?>/projects/index.php?pid=2" >Comming Soon</a>
-							</li>
 						</ul>
 					</li>
 					<li>
