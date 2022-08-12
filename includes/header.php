@@ -80,10 +80,10 @@
 						</ul>
 					</li>
 					<li>
-						<a href="<?php echo $CLIENT_ROOT; ?>/projects/index.php" >Checklists</a>
+						<a href="<?php echo $CLIENT_ROOT; ?>/checklists/index.php" >Checklists</a>
 						<ul>
 							<li>
-								<a href="<?php echo $CLIENT_ROOT; ?>/checklists/checklist.php?clid=34&pid=0" >UF Main Campus</a>
+								<a href="<?php echo $CLIENT_ROOT; ?>/checklists/checklist.php?clid=35" >UF Conservation Areas</a>
 							</li>
 							<li>
 								<a href="<?php echo $CLIENT_ROOT; ?>/projects/index.php?pid=2" >Comming Soon</a>
