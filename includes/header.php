@@ -113,6 +113,9 @@
 							<li>
 								<a href="/misc/contacts.php">The BioGator Team</a>
 							</li>
+							<li>
+								<a href="/misc/howto.php">How to use BioGator</a>
+							</li>
 						</ul>
 					</li>
 				</ul>
