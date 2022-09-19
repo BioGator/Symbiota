@@ -34,9 +34,8 @@ header("Content-Type: text/html; charset=".$CHARSET);
 	?>
 	<!-- This is inner text! -->
 	<div id="innertext">
-		<h1></h1>
+		<h1>Discover UF’s Campus Biodiversity!</h1>
 		<div style="padding: 0px 10px;">
-			<h2>Discover UF’s Campus Biodiversity!</h2>
 			<p>The BioGator portal makes it possible to discover the many species found on the University of Florida’s campus. 
 				We bring together information from museum collections, community science platforms (e.g., iNaturalist, eBird), and 
 				projects by UF faculty and students to document our campus biodiversity.</p>
