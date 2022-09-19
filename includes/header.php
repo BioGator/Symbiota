@@ -110,6 +110,9 @@
 							<li>
 								<a href="/misc/aboutproject.php">About BioGator</a>
 							</li>
+							<li>
+								<a href="/misc/contacts.php">The BioGator Team</a>
+							</li>
 						</ul>
 					</li>
 				</ul>
