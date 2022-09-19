@@ -107,6 +107,9 @@
 							<li>
 								<a target="_blank" href="https://facilities.ufl.edu/campus-planning/conservation-area-land-management-plans/plans/" >UF Conservation Area Maps</a>
 							</li>
+							<li>
+								<a href="/misc/aboutproject.php">About BioGator</a>
+							</li>
 						</ul>
 					</li>
 				</ul>
