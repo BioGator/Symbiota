@@ -102,7 +102,15 @@
 						</ul>
 					</li>
 					<li>
-						<a href="#" >Other Resources</a>
+                        <a href="#" >Discover Campus Biodiversity</a>
+                        <ul>
+							<li>
+								<a href="<?php echo $CLIENT_ROOT; ?>/includes/howtouse.php" >How to Use BioGator</a>
+							</li>
+                        </ul>
+                    </li>
+                    <li>
+					<a href="#" >Other Resources</a>
 						<ul>
 							<li>
 								<a target="_blank" href="https://facilities.ufl.edu/campus-planning/conservation-area-land-management-plans/plans/" >UF Conservation Area Maps</a>
