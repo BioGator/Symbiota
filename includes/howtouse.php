@@ -2,7 +2,14 @@
 include_once('../config/symbini.php');
 header("Content-Type: text/html; charset=".$CHARSET);
 ?>
+
+
 <html>
+<style>
+.inline-block {
+   display: inline-block;
+}
+</style>
 	<head>
 		<title><?php echo $DEFAULT_TITLE; ?> How to Use BioGator</title>
 		<?php
@@ -23,6 +30,20 @@ header("Content-Type: text/html; charset=".$CHARSET);
 		<div id="innertext">
 			<h1>How to Use BioGator</h1><br />
 
+			<div>
+				<div class="inline-block">
+					<figure>
+						<img src="<?php echo $CLIENT_ROOT; ?>/images/BioGator2.jpg" alt = "Joe Martinez, graduate student, examining the moth collection in the Florida Museum of Natural History." style="margin:0;width:300px" />
+						<figcaption style="width:300px">Joe Martinez, graduate student, examining the moth collection in the Florida Museum of Natural History. Martinez is identifying moths sampled during BioGator surveys and looking for specimens previously collected on the UF campus.</figcaption>
+					</figure>
+				</div>
+				<div class="inline-block">
+					<figure style="padding:0,50,0,0">
+						<img src="<?php echo $CLIENT_ROOT; ?>/images/BioGator_Survey_leps.jpeg" alt = "Photo of undergraduate and graduate students sampling moths for the BioGator project." style="margin:0;width:550px" />
+						<figcaption style="width:550px">Photo of undergraduate and graduate students sampling moths for the BioGator project. The bucket in the image is a blacklight trap, used to sample insects, placed near Lake Alice on the UF campus in Gainesville.</figcaption>
+					</figure>
+				</div>
+			</div>
 			<div style="margin:10px">
 				<a name="checklists"></a>	
 				<h2>Using Checklists</h2>
