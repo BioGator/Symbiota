@@ -6,8 +6,30 @@ header("Content-Type: text/html; charset=".$CHARSET);
 
 <html>
 <style>
-.inline-block {
-   display: inline-block;
+
+.photo_grid {
+	display: grid;
+	grid-template-columns: auto auto;
+	width: 90%;
+}
+
+figure {
+	grid-column: auto;
+	width: inherit;
+	padding: 1rem;
+	margin: 1rem;
+	text-align: center;
+}
+
+figcaption {
+	padding: 1rem;
+	margin: 1rem;
+}
+
+img {
+	border-radius: 2rem;
+	padding: 1rem;
+	width: inherit;
 }
 </style>
 	<head>
@@ -30,19 +52,19 @@ header("Content-Type: text/html; charset=".$CHARSET);
 		<div id="innertext">
 			<h1>How to Use BioGator</h1><br />
 
-			<div>
-				<div class="inline-block">
+			<div class="photo_grid">
+				
 					<figure>
-						<img src="<?php echo $CLIENT_ROOT; ?>/images/BioGator2.jpg" alt = "Joe Martinez, graduate student, examining the moth collection in the Florida Museum of Natural History." style="margin:0;width:300px" />
-						<figcaption style="width:300px">Joe Martinez, graduate student, examining the moth collection in the Florida Museum of Natural History. Martinez is identifying moths sampled during BioGator surveys and looking for specimens previously collected on the UF campus.</figcaption>
+						<img src="<?php echo $CLIENT_ROOT; ?>/images/BioGator2.jpg" alt = "Joe Martinez, graduate student, examining the moth collection in the Florida Museum of Natural History."" />
+						<figcaption>Joe Martinez, graduate student, examining the moth collection in the Florida Museum of Natural History. Martinez is identifying moths sampled during BioGator surveys and looking for specimens previously collected on the UF campus.</figcaption>
 					</figure>
-				</div>
-				<div class="inline-block">
-					<figure style="padding:0,50,0,0">
-						<img src="<?php echo $CLIENT_ROOT; ?>/images/BioGator_Survey_leps.jpeg" alt = "Photo of undergraduate and graduate students sampling moths for the BioGator project." style="margin:0;width:550px" />
-						<figcaption style="width:550px">Photo of undergraduate and graduate students sampling moths for the BioGator project. The bucket in the image is a blacklight trap, used to sample insects, placed near Lake Alice on the UF campus in Gainesville.</figcaption>
+				
+				
+					<figure >
+						<img src="<?php echo $CLIENT_ROOT; ?>/images/BioGator_Survey_leps.jpeg" alt = "Photo of undergraduate and graduate students sampling moths for the BioGator project."  />
+						<figcaption >Photo of undergraduate and graduate students sampling moths for the BioGator project. The bucket in the image is a blacklight trap, used to sample insects, placed near Lake Alice on the UF campus in Gainesville.</figcaption>
 					</figure>
-				</div>
+				
 			</div>
 			<div style="margin:10px">
 				<a name="checklists"></a>	
