@@ -42,7 +42,7 @@ $collectionSearchPage = $SHOULD_USE_HARVESTPARAMS ? '/collections/index.php' : '
 				</a>
 				<div class="brand-name">
 					<h1>BioGator</h1>
-					<h2>University of Florida</h2>
+					<h2><i>University of Florida</i></h2>
 				</div>
 			</div>
 		</div>
@@ -59,24 +59,70 @@ $collectionSearchPage = $SHOULD_USE_HARVESTPARAMS ? '/collections/index.php' : '
 						</a>
 					</li>
 					<li>
-						<a href="<?= $CLIENT_ROOT . $collectionSearchPage ?>">
-							<?= $LANG['H_SEARCH'] ?>
-						</a>
+						<a href="#"><?= $LANG['H_SEARCH'] ?></a>
+						<ul>
+							<li>
+								<a href="<?= $CLIENT_ROOT . $collectionSearchPage ?>"><?= $LANG['H_COLLECTIONS'] ?></a>
+							</li>
+							<li>
+								<a href="<?= $CLIENT_ROOT ?>/collections/map/index.php" rel="noopener noreferrer"><?= $LANG['H_MAP_SEARCH'] ?></a>
+							</li>
+						</ul>
 					</li>
 					<li>
-						<a href="<?= $CLIENT_ROOT ?>/collections/map/index.php" rel="noopener noreferrer">
-							<?= $LANG['H_MAP_SEARCH'] ?>
-						</a>
+						<a href="#"><?= $LANG['H_IMAGES'] ?></a>
+						<ul>
+							<li>
+								<a href="<?= $CLIENT_ROOT ?>/imagelib/index.php"><?= $LANG['H_IMAGE_BROWSER'] ?></a>
+							</li>
+							<li>
+								<a href="<?= $CLIENT_ROOT ?>/imagelib/search.php"><?= $LANG['H_IMAGE_SEARCH'] ?></a>
+							</li>
+						</ul>
 					</li>
 					<li>
-						<a href="<?= $CLIENT_ROOT ?>/checklists/index.php">
-							<?= $LANG['H_INVENTORIES'] ?>
-						</a>
+						<a href="<?= $CLIENT_ROOT ?>/checklists/index.php"><?= $LANG['H_INVENTORIES'] ?></a>
+						<ul>
+							<li>
+								<a href="<?= $CLIENT_ROOT ?>/projects/index.php?pid=1"><?= $LANG['H_UF_CONSERVATION_AREAS'] ?></a>
+							</li>
+							<li>
+								<a href="<?= $CLIENT_ROOT ?>/checklists/checklist.php?clid=34"><?= $LANG['H_UF_MAIN_CAMPUS'] ?></a>
+							</li>
+						</ul>
 					</li>
 					<li>
-						<a href="<?= $CLIENT_ROOT ?>/imagelib/search.php">
-							<?= $LANG['H_IMAGES'] ?>
-						</a>
+						<a href="#"><?= $LANG['H_INTERACTIVE_TOOLS'] ?></a>
+						<ul>
+							<li>
+								<a href="<?= $CLIENT_ROOT ?>/checklists/dynamicmap.php?interface=checklist"><?= $LANG['H_DYNAMIC_CHECKLIST'] ?></a>
+							</li>
+							<li>
+								<a href="<?= $CLIENT_ROOT ?>/checklists/dynamicmap.php?interface=key"><?= $LANG['H_DYNAMIC_KEY'] ?></a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#"><?= $LANG['H_DISCOVER_CAMPUS_BIODIVERSITY'] ?></a>
+						<ul>
+							<li>
+								<a href="<?= $CLIENT_ROOT ?>/includes/howtouse.php"><?= $LANG['H_HOW_TO_USE'] ?></a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#"><?= $LANG['H_OTHER_RESOURCES'] ?></a>
+						<ul>
+							<li>
+								<a href="https://facilities.ufl.edu/campus-planning/conservation-area-land-management-plans/plans/"><?= $LANG['H_UF_CONS_AREA_MAPS'] ?></a>
+							</li>
+							<li>
+								<a href="<?= $CLIENT_ROOT ?>/misc/aboutproject.php"><?= $LANG['H_ABOUT_PROJECT'] ?></a>
+							</li>
+							<li>
+								<a href="<?= $CLIENT_ROOT ?>/misc/contacts.php"><?= $LANG['H_BIOGATOR_TEAM'] ?></a>
+							</li>
+						</ul>
 					</li>
 					<li>
 						<a href="<?= $CLIENT_ROOT ?>/includes/usagepolicy.php">
@@ -84,42 +130,18 @@ $collectionSearchPage = $SHOULD_USE_HARVESTPARAMS ? '/collections/index.php' : '
 						</a>
 					</li>
 					<li>
-						<a href="https://symbiota.org/docs" target="_blank" rel="noopener noreferrer">
-							<?= $LANG['H_HELP'] ?>
-						</a>
-					</li>
-					<li>
 						<a href='<?= $CLIENT_ROOT ?>/sitemap.php'>
 							<?= $LANG['H_SITEMAP'] ?>
 						</a>
 					</li>
-					<li>
-						<a href="#">Example Dropdown</a>
-						<ul>
-							<li>
-								<a href="#">Link 1</a>
-							</li>
-							<li>
-								<a href="#">Link 2</a>
-							</li>
-							<li>
-								<a href="#">Sub Menu</a>
-								<ul>
-									<li>
-										<a href="#">Link 3</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li id="lang-select-li">
+					<!--<li id="lang-select-li">
 						<label for="language-selection"><?= $LANG['H_SELECT_LANGUAGE'] ?>: </label>
 						<select oninput="setLanguage(this)" id="language-selection" name="language-selection">
 							<option value="en">English</option>
 							<option value="es" <?= ($LANG_TAG=='es'?'SELECTED':'') ?>>Español</option>
 							<option value="fr" <?= ($LANG_TAG=='fr'?'SELECTED':'') ?>>Français</option>
 						</select>
-					</li>
+					</li>-->
 				</ul>
 			</nav>
 		</div>
