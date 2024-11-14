@@ -1,19 +1,21 @@
 <?php
 include_once('config/symbini.php');
-include_once('content/lang/index.'.$LANG_TAG.'.php');
-header("Content-Type: text/html; charset=".$CHARSET);
+if($LANG_TAG == 'en' || !file_exists($SERVER_ROOT.'/content/lang/templates/index.'.$LANG_TAG.'.php')) include_once($SERVER_ROOT.'/content/lang/templates/index.en.php');
+else include_once($SERVER_ROOT.'/content/lang/templates/index.'.$LANG_TAG.'.php');
+header('Content-Type: text/html; charset=' . $CHARSET);
 ?>
-<html>
+<!DOCTYPE html>
+<html lang="<?php echo $LANG_TAG ?>">
 <head>
-	<title><?php echo $DEFAULT_TITLE; ?> Home</title>
-	<?php
+        <title><?php echo $DEFAULT_TITLE; ?> Home</title>
+        <?php
+        include_once($SERVER_ROOT . '/includes/head.php');
+        include_once($SERVER_ROOT . '/includes/googleanalytics.php');
 	$activateJQuery = true;
-	include_once($SERVER_ROOT.'/includes/head.php');
-	include_once($SERVER_ROOT.'/includes/googleanalytics.php');
 	?>
 	<link href="css/quicksearch.css" type="text/css" rel="Stylesheet" />
-	<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
-	<script src="js/jquery-ui-1.12.1/jquery-ui.min.js" type="text/javascript"></script>
+	<script src="js/jquery-3.7.1.min.js" type="text/javascript"></script>
+	<script src="js/jquery-ui.min.js" type="text/javascript"></script>
 	<script type="text/javascript">
 		var clientRoot = "<?php echo $CLIENT_ROOT; ?>";
 	</script>
