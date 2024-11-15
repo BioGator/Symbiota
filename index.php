@@ -32,10 +32,10 @@ header('Content-Type: text/html; charset=' . $CHARSET);
 </head>
 <body>
 	<?php
-	include($SERVER_ROOT.'/includes/header.php');
+	include($SERVER_ROOT . '/includes/header.php');
 	?>
-	<!-- This is inner text! -->
-	<div id="innertext">
+	<div class="navpath"></div>
+	<main id="innertext">
 		<h1>Discover UF’s Campus Biodiversity!</h1>
 		<div style="padding: 0px 10px;">
 			<p>The BioGator portal makes it possible to discover the many species found on the University of Florida’s campus. 
@@ -52,7 +52,7 @@ header('Content-Type: text/html; charset=' . $CHARSET);
 				<button name="formsubmit"  id="quicksearchbutton" type="submit" value="Search Terms"><?php echo (isset($LANG['QSEARCH_SEARCH_BUTTON'])?$LANG['QSEARCH_SEARCH_BUTTON']:'Search'); ?></button>
 			</form>
 		</div>
-	</div>
+	</main>
 	<?php
 	include($SERVER_ROOT.'/includes/footer.php');
 	?>
