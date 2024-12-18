@@ -17,12 +17,12 @@ include_once('content/lang/misc/aboutproject.'.$LANG_TAG.'.php');
 		include($SERVER_ROOT.'/includes/header.php');
 		?>
 		<div class="navpath">
-			<a href="../index.php"><?php echo (isset($LANG['HOME'])?$LANG['HOME']:'Home'); ?></a> &gt;&gt;
-			<b><?php echo (isset($LANG['ABOUT_PROJECT'])?$LANG['ABOUT_PROJECT']:'About the Project'); ?></b>
+			<a href="../index.php"><?= $LANG['HOME']; ?></a> &gt;&gt;
+			<b><?= $LANG['ABOUT_PROJECT']; ?></b>
 		</div>
 		<!-- This is inner text! -->
-		<div id="innertext" style="margin:10px 20px">
-			<h1><?php echo (isset($LANG['ABOUT_PROJECT'])?$LANG['ABOUT_PROJECT']:'About BioGator'); ?></h1>
+		<div id="innertext">
+			<h1><?= $LANG['ABOUT_PROJECT']; ?></h1>
 
 			<p>BioGator is a project made possible with support from UF Planning, Design & Construction and the UF Office of Sustainability. 
 			The primary goal of BioGator is to provide a resource for students, staff, and faculty at the University of Florida to learn more about the species of animals, plants, and fungi known from the ~2,000 acres of the Gainesville campus. 
