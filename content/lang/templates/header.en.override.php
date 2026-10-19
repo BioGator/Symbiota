@@ -9,6 +9,16 @@
  e.g. override: $LANG['H_COLLECTIONS'] = 'Search Lichen Collections';
 */
 
-
+$LANG['H_UF_CONSERVATION_AREAS'] = 'UF Conservation Areas';
+$LANG['H_UF_MAIN_CAMPUS'] = 'UF Main Campus';
+$LANG['H_INTERACTIVE_TOOLS'] = 'Interactive Tools';
+$LANG['H_DYNAMIC_CHECKLIST'] = 'Dynamic Checklist';
+$LANG['H_DYNAMIC_KEY'] = 'Dynamic Key';
+$LANG['H_DISCOVER_CAMPUS_BIODIVERSITY'] = 'Discover Campus Biodiversity';
+$LANG['H_HOW_TO_USE'] = 'How to Use BioGator';
+$LANG['H_UF_CONS_AREA_MAPS'] = 'UF Conservation Area Maps';
+$LANG['H_ABOUT_PROJECT'] = 'About Project';
+$LANG['H_BIOGATOR_TEAM'] = 'The BioGator Team';
+$LANG['H_OTHER_RESOURCES'] = 'Other Resources';
 
 ?>
